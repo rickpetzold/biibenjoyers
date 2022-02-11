@@ -1,0 +1,1035 @@
+1644589631285	geckodriver	INFO	Listening on 127.0.0.1:64626
+1644589634334	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofileD6AYpc"
+1644589634691	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofileD6AYpc\\search.json.mozlz4", (void 0)))
+1644589637058	Marionette	INFO	Listening on port 64636
+1644589637525	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644589649982	Marionette	INFO	Stopped listening on port 64636
+
+###!!! [Parent][PBackgroundParent] Error: RunMessage(msgname=PBackgroundIDBDatabase::Msg_Close) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1644596559878	geckodriver	INFO	Listening on 127.0.0.1:64811
+1644596562956	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofileqBeF9n"
+1644596563270	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofileqBeF9n\\search.json.mozlz4", (void 0)))
+1644596565793	Marionette	INFO	Listening on port 64819
+1644596566150	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644596571495	Marionette	INFO	Stopped listening on port 64819
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1644596631507	geckodriver	INFO	Listening on 127.0.0.1:64889
+1644596634581	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofiled7di3G"
+1644596634911	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofiled7di3G\\search.json.mozlz4", (void 0)))
+1644596637549	Marionette	INFO	Listening on port 64897
+1644596637758	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644597232011	Marionette	INFO	Stopped listening on port 64897
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofileXdck6Y"
+1644596718564	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofileXdck6Y\\search.json.mozlz4", (void 0)))
+1644596720918	Marionette	INFO	Listening on port 53381
+1644596721413	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644596727770	Marionette	INFO	Stopped listening on port 53381
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1644596740989	geckodriver	INFO	Listening on 127.0.0.1:53443
+1644596744060	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofile9F2fJH"
+1644596744422	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofile9F2fJH\\search.json.mozlz4", (void 0)))
+1644596746803	Marionette	INFO	Listening on port 53454
+1644596747227	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644597233932	Marionette	INFO	Stopped listening on port 53454
+4596777894	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofilekLAR3G"
+1644596778295	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofilekLAR3G\\search.json.mozlz4", (void 0)))
+1644596780726	Marionette	INFO	Listening on port 53514
+1644596781076	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: (new InvalidStateError("JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment", (void 0), 327))
+InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment: _createTargetActor/<@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:327:12
+newListener@resource://devtools/shared/event-emitter.js:173:27
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+destroy@resource://devtools/server/actors/targets/window-global.js:743:10
+module.exports/proto.destroy@resource://devtools/server/actors/targets/target-actor-mixin.js:244:30
+instantiate@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:242:26
+handleEvent@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:651:12
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1644597229088	Marionette	INFO	Stopped listening on port 53514
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+ SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofileBSy8Jn\\search.json.mozlz4", (void 0)))
+1644597228131	Marionette	INFO	Listening on port 53660
+1644597228301	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644597239575	Marionette	INFO	Stopped listening on port 53660
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1644597249673	geckodriver	INFO	Listening on 127.0.0.1:53723
+1644597252736	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofileKDKZ1n"
+1644597253053	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofileKDKZ1n\\search.json.mozlz4", (void 0)))
+1644597255770	Marionette	INFO	Listening on port 53731
+1644597255898	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644597268709	Marionette	INFO	Stopped listening on port 53731
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1644597355087	geckodriver	INFO	Listening on 127.0.0.1:53801
+1644597358135	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofilejbEPKh"
+1644597358441	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofilejbEPKh\\search.json.mozlz4", (void 0)))
+1644597360641	Marionette	INFO	Listening on port 53809
+1644597360811	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3he9SSTPTzffGJDQBOTZcvp_zoO7E8v038ekVtZ_6Vg.js line 1 > eval line 7386 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3he9SSTPTzffGJDQBOTZcvp_zoO7E8v038ekVtZ_6Vg.js line 1 > eval line 4643 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3he9SSTPTzffGJDQBOTZcvp_zoO7E8v038ekVtZ_6Vg.js line 1 > eval line 661 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3he9SSTPTzffGJDQBOTZcvp_zoO7E8v038ekVtZ_6Vg.js line 1 > eval line 3198 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3he9SSTPTzffGJDQBOTZcvp_zoO7E8v038ekVtZ_6Vg.js line 1 > eval line 772 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://analytics.webgains.io/pvClk.min.js, line 1: SecurityError: The operation is insecure.
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitWindowContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitWindowContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_HistoryCommitIndexAndLength) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitWindowContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitWindowContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_HistoryCommitIndexAndLength) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardWindowContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3he9SSTPTzffGJDQBOTZcvp_zoO7E8v038ekVtZ_6Vg.js line 1 > eval line 3358 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3he9SSTPTzffGJDQBOTZcvp_zoO7E8v038ekVtZ_6Vg.js line 1 > eval line 2601 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3he9SSTPTzffGJDQBOTZcvp_zoO7E8v038ekVtZ_6Vg.js line 1 > eval line 196 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3he9SSTPTzffGJDQBOTZcvp_zoO7E8v038ekVtZ_6Vg.js line 1 > eval line 6147 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3he9SSTPTzffGJDQBOTZcvp_zoO7E8v038ekVtZ_6Vg.js line 1 > eval line 1304 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[Parent 18488, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 18488, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitWindowContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitWindowContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_HistoryCommitIndexAndLength) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_CommitBrowsingContextTransaction) Channel closing: too late to send/recv, messages will be lost
+
+[Parent 18488, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 18488, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 18488, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 18488, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 18488, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 18488, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 18488, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3he9SSTPTzffGJDQBOTZcvp_zoO7E8v038ekVtZ_6Vg.js line 1 > eval line 1111 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3he9SSTPTzffGJDQBOTZcvp_zoO7E8v038ekVtZ_6Vg.js line 1 > eval line 3162 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3he9SSTPTzffGJDQBOTZcvp_zoO7E8v038ekVtZ_6Vg.js line 1 > eval line 4428 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3he9SSTPTzffGJDQBOTZcvp_zoO7E8v038ekVtZ_6Vg.js line 1 > eval line 2102 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3he9SSTPTzffGJDQBOTZcvp_zoO7E8v038ekVtZ_6Vg.js line 1 > eval line 6227 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[Parent 18488, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardWindowContext) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[Parent 18488, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 18488, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 18488, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 18488, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 18488, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 18488, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 18488, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 18488, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 18488, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 18488, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 18488, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 18488, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3he9SSTPTzffGJDQBOTZcvp_zoO7E8v038ekVtZ_6Vg.js line 1 > eval line 4141 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3he9SSTPTzffGJDQBOTZcvp_zoO7E8v038ekVtZ_6Vg.js line 1 > eval line 7255 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3he9SSTPTzffGJDQBOTZcvp_zoO7E8v038ekVtZ_6Vg.js line 1 > eval line 3195 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3he9SSTPTzffGJDQBOTZcvp_zoO7E8v038ekVtZ_6Vg.js line 1 > eval line 2538 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3he9SSTPTzffGJDQBOTZcvp_zoO7E8v038ekVtZ_6Vg.js line 1 > eval line 2119 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3he9SSTPTzffGJDQBOTZcvp_zoO7E8v038ekVtZ_6Vg.js line 1 > eval line 2319 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3he9SSTPTzffGJDQBOTZcvp_zoO7E8v038ekVtZ_6Vg.js line 1 > eval line 4032 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3he9SSTPTzffGJDQBOTZcvp_zoO7E8v038ekVtZ_6Vg.js line 1 > eval line 4647 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.ionos.de/digitalguide/websites/web-entwicklung/xpath-tutorial/, line 657: ReferenceError: _satellite is not defined
+[Parent 18488, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript error: https://fdyn.pubwise.io/script/8e8b7267-5938-41ec-b047-b7e985fc9645/v3/dyn/pws.js?type=default, line 1151: TypeError: s is undefined
+JavaScript error: https://fdyn.pubwise.io/script/8e8b7267-5938-41ec-b047-b7e985fc9645/v3/dyn/pws.js?type=default, line 1151: TypeError: s is undefined
+JavaScript error: https://fdyn.pubwise.io/script/8e8b7267-5938-41ec-b047-b7e985fc9645/v3/dyn/pws.js?type=default, line 1151: TypeError: s is undefined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3he9SSTPTzffGJDQBOTZcvp_zoO7E8v038ekVtZ_6Vg.js line 1 > eval line 6735 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://fdyn.pubwise.io/script/8e8b7267-5938-41ec-b047-b7e985fc9645/v3/dyn/pws.js?type=default, line 1151: TypeError: s is undefined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://fdyn.pubwise.io/script/8e8b7267-5938-41ec-b047-b7e985fc9645/v3/dyn/pws.js?type=default, line 1151: TypeError: s is undefined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3he9SSTPTzffGJDQBOTZcvp_zoO7E8v038ekVtZ_6Vg.js line 1 > eval line 326 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3he9SSTPTzffGJDQBOTZcvp_zoO7E8v038ekVtZ_6Vg.js line 1 > eval line 3010 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3he9SSTPTzffGJDQBOTZcvp_zoO7E8v038ekVtZ_6Vg.js line 1 > eval line 6953 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3he9SSTPTzffGJDQBOTZcvp_zoO7E8v038ekVtZ_6Vg.js line 1 > eval line 7122 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3he9SSTPTzffGJDQBOTZcvp_zoO7E8v038ekVtZ_6Vg.js line 1 > eval line 5097 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[Parent 18488, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 18488, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 18488, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 18488, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 18488, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 18488, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 18488, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3he9SSTPTzffGJDQBOTZcvp_zoO7E8v038ekVtZ_6Vg.js line 1 > eval line 2498 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3he9SSTPTzffGJDQBOTZcvp_zoO7E8v038ekVtZ_6Vg.js line 1 > eval line 5224 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3he9SSTPTzffGJDQBOTZcvp_zoO7E8v038ekVtZ_6Vg.js line 1 > eval line 7413 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3he9SSTPTzffGJDQBOTZcvp_zoO7E8v038ekVtZ_6Vg.js line 1 > eval line 7686 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://fdyn.pubwise.io/script/8e8b7267-5938-41ec-b047-b7e985fc9645/v3/dyn/pws.js?type=default, line 1151: TypeError: s is undefined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3he9SSTPTzffGJDQBOTZcvp_zoO7E8v038ekVtZ_6Vg.js line 1 > eval line 1611 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardWindowContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardWindowContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardWindowContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardWindowContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardWindowContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardWindowContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardWindowContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardWindowContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardWindowContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardWindowContext) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardWindowContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+[Parent 18488, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 18488, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 18488, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+[Parent 18488, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 18488, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 18488, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 18488, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1644598509954	Marionette	INFO	Stopped listening on port 53809
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1644598677439	geckodriver	INFO	Listening on 127.0.0.1:54994
+1644598680492	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofileNlbUvP"
+1644598680792	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofileNlbUvP\\search.json.mozlz4", (void 0)))
+1644598683320	Marionette	INFO	Listening on port 55002
+1644598683663	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1644600113754	geckodriver	INFO	Listening on 127.0.0.1:64621
+1644600116815	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofileraf8QL"
+1644600117124	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofileraf8QL\\search.json.mozlz4", (void 0)))
+1644600119656	Marionette	INFO	Listening on port 64629
+1644600120005	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+1644600144529	Marionette	INFO	Stopped listening on port 64629
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1644600150329	geckodriver	INFO	Listening on 127.0.0.1:64691
+1644600153373	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofileQwIHQO"
+1644600153697	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofileQwIHQO\\search.json.mozlz4", (void 0)))
+1644600156464	Marionette	INFO	Listening on port 64702
+1644600156546	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+1644600475120	Marionette	INFO	Stopped listening on port 64702
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1644601482556	geckodriver	INFO	Listening on 127.0.0.1:61560
+1644601485633	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofilep5m3ny"
+1644601485958	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofilep5m3ny\\search.json.mozlz4", (void 0)))
+1644601488389	Marionette	INFO	Listening on port 61568
+1644601488799	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+1644601588337	Marionette	INFO	Stopped listening on port 61568
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1644604452350	geckodriver	INFO	Listening on 127.0.0.1:57098
+1644604455429	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofilewxPPt5"
+1644604455760	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofilewxPPt5\\search.json.mozlz4", (void 0)))
+1644604458156	Marionette	INFO	Listening on port 57107
+1644604458592	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+1644604472094	Marionette	INFO	Stopped listening on port 57107
+1644604499235	geckodriver	INFO	Listening on 127.0.0.1:57205
+1644604502262	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofileElYRQT"
+1644604502623	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofileElYRQT\\search.json.mozlz4", (void 0)))
+1644604505786	Marionette	INFO	Listening on port 57217
+1644604505954	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+1644604552207	Marionette	INFO	Stopped listening on port 57217
+1644604563607	geckodriver	INFO	Listening on 127.0.0.1:57313
+1644604566640	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofileSmIRuf"
+1644604567112	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofileSmIRuf\\search.json.mozlz4", (void 0)))
+1644604569932	Marionette	INFO	Listening on port 57335
+1644604570317	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+JavaScript error: resource://gre/modules/Prompter.jsm, line 1189: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+1644604660481	Marionette	INFO	Stopped listening on port 57335
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1644604664158	geckodriver	INFO	Listening on 127.0.0.1:57467
+1644604667225	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofile0Pp3bY"
+1644604667571	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofile0Pp3bY\\search.json.mozlz4", (void 0)))
+1644604670915	Marionette	INFO	Listening on port 57476
+1644604671414	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+JavaScript error: resource://gre/modules/Prompter.jsm, line 1189: NS_ERROR_NOT_AVAILABLE: prompt aborted by user
+1644604689968	Marionette	INFO	Stopped listening on port 57476
+1644604736950	geckodriver	INFO	Listening on 127.0.0.1:57571
+1644604740012	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofileBw6WmS"
+1644604740385	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofileBw6WmS\\search.json.mozlz4", (void 0)))
+1644604743118	Marionette	INFO	Listening on port 57580
+1644604743218	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+1644604754313	Marionette	INFO	Stopped listening on port 57580
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1644604861289	geckodriver	INFO	Listening on 127.0.0.1:57678
+1644604864356	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofilec5iq1g"
+1644604864681	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofilec5iq1g\\search.json.mozlz4", (void 0)))
+1644604867084	Marionette	INFO	Listening on port 57686
+1644604867549	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+1644604894637	Marionette	INFO	Stopped listening on port 57686
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1644604899597	geckodriver	INFO	Listening on 127.0.0.1:57795
+1644604902677	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofileWnT6mr"
+1644604903027	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofileWnT6mr\\search.json.mozlz4", (void 0)))
+1644604905605	Marionette	INFO	Listening on port 57803
+1644604905874	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1644604945558	Marionette	INFO	Stopped listening on port 57803
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1644604955529	geckodriver	INFO	Listening on 127.0.0.1:57880
+1644604958589	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofilerEvORB"
+1644604958947	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofilerEvORB\\search.json.mozlz4", (void 0)))
+1644604961725	Marionette	INFO	Listening on port 57888
+1644604961771	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+1644604992718	Marionette	INFO	Stopped listening on port 57888
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1644604997262	geckodriver	INFO	Listening on 127.0.0.1:57991
+1644605000360	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofileyhKuBX"
+1644605000685	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofileyhKuBX\\search.json.mozlz4", (void 0)))
+1644605003174	Marionette	INFO	Listening on port 57999
+1644605003549	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+1644605561957	Marionette	INFO	Stopped listening on port 57999
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofile6avYNl"
+1644605063075	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofile6avYNl\\search.json.mozlz4", (void 0)))
+1644605065718	Marionette	INFO	Listening on port 58137
+1644605065924	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+1644605146572	Marionette	INFO	Stopped listening on port 58137
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1644605151217	geckodriver	INFO	Listening on 127.0.0.1:58250
+1644605154276	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofilevG32U6"
+1644605154595	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofilevG32U6\\search.json.mozlz4", (void 0)))
+1644605157050	Marionette	INFO	Listening on port 58260
+1644605157468	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644605173370	Marionette	INFO	Stopped listening on port 58260
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1644605176985	geckodriver	INFO	Listening on 127.0.0.1:58325
+1644605180063	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofileQzxdlg"
+1644605180415	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofileQzxdlg\\search.json.mozlz4", (void 0)))
+1644605183012	Marionette	INFO	Listening on port 58333
+1644605183240	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644605204623	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1644605214564	Marionette	INFO	Stopped listening on port 58333
+1644605219632	geckodriver	INFO	Listening on 127.0.0.1:58411
+1644605222655	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofiledrgzWK"
+1644605223018	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofiledrgzWK\\search.json.mozlz4", (void 0)))
+1644605225823	Marionette	INFO	Listening on port 58419
+1644605225854	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644605268582	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1644605296204	Marionette	INFO	Stopped listening on port 58419
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1644605300650	geckodriver	INFO	Listening on 127.0.0.1:58523
+1644605303720	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofileexI1Ew"
+1644605304048	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofileexI1Ew\\search.json.mozlz4", (void 0)))
+1644605306568	Marionette	INFO	Listening on port 58531
+1644605306923	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+1644605563239	Marionette	INFO	Stopped listening on port 58531
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1644605698101	geckodriver	INFO	Listening on 127.0.0.1:58722
+1644605701119	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofileNXR8Dg"
+1644605701462	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofileNXR8Dg\\search.json.mozlz4", (void 0)))
+1644605704046	Marionette	INFO	Listening on port 58730
+1644605704288	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+1644605722923	Marionette	INFO	Stopped listening on port 58730
+1644606126248	geckodriver	INFO	Listening on 127.0.0.1:62459
+1644606129331	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofiledjW9zv"
+1644606129688	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofiledjW9zv\\search.json.mozlz4", (void 0)))
+1644606132281	Marionette	INFO	Listening on port 62467
+1644606132503	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+1644606148737	Marionette	INFO	Stopped listening on port 62467
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1644606276780	geckodriver	INFO	Listening on 127.0.0.1:62588
+1644606279827	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofilejVpqHi"
+1644606280207	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofilejVpqHi\\search.json.mozlz4", (void 0)))
+1644606283099	Marionette	INFO	Listening on port 62596
+1644606283523	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+1644606292774	Marionette	INFO	Stopped listening on port 62596
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1644606319193	geckodriver	INFO	Listening on 127.0.0.1:62679
+1644606322249	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofileQZQwnn"
+1644606322567	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofileQZQwnn\\search.json.mozlz4", (void 0)))
+1644606325107	Marionette	INFO	Listening on port 62687
+1644606325428	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+1644606336037	Marionette	INFO	Stopped listening on port 62687
+1644606354032	geckodriver	INFO	Listening on 127.0.0.1:62768
+1644606357106	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofile9FpEBL"
+1644606357425	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofile9FpEBL\\search.json.mozlz4", (void 0)))
+1644606359923	Marionette	INFO	Listening on port 62776
+1644606360289	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+1644606381569	Marionette	INFO	Stopped listening on port 62776
+1644606514645	geckodriver	INFO	Listening on 127.0.0.1:62904
+1644606517708	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofileIODwmk"
+1644606518049	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofileIODwmk\\search.json.mozlz4", (void 0)))
+1644606520538	Marionette	INFO	Listening on port 62913
+1644606520870	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+1644606531887	Marionette	INFO	Stopped listening on port 62913
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1644609166664	geckodriver	INFO	Listening on 127.0.0.1:54408
+1644609169715	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofilexjfiL6"
+1644609170033	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofilexjfiL6\\search.json.mozlz4", (void 0)))
+1644609172367	Marionette	INFO	Listening on port 54416
+1644609172420	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+1644609180040	Marionette	INFO	Stopped listening on port 54416
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1644609191617	geckodriver	INFO	Listening on 127.0.0.1:54484
+1644609194700	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofile2kd4nx"
+1644609195025	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofile2kd4nx\\search.json.mozlz4", (void 0)))
+1644609197354	Marionette	INFO	Listening on port 54493
+1644609197842	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+1644609204824	Marionette	INFO	Stopped listening on port 54493
+1644609222618	geckodriver	INFO	Listening on 127.0.0.1:54564
+1644609225687	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofileVrt5DN"
+1644609226062	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofileVrt5DN\\search.json.mozlz4", (void 0)))
+1644609228494	Marionette	INFO	Listening on port 54572
+1644609228870	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+1644609234384	Marionette	INFO	Stopped listening on port 54572
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1644610418491	geckodriver	INFO	Listening on 127.0.0.1:53824
+1644610421525	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofileM9wQjF"
+1644610421847	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofileM9wQjF\\search.json.mozlz4", (void 0)))
+1644610424551	Marionette	INFO	Listening on port 53833
+1644610424763	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1644610437325	Marionette	INFO	Stopped listening on port 53833
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1644610576640	geckodriver	INFO	Listening on 127.0.0.1:53931
+1644610579684	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofilenJc8rn"
+1644610580076	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofilenJc8rn\\search.json.mozlz4", (void 0)))
+1644610582722	Marionette	INFO	Listening on port 53939
+1644610582858	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+1644610592919	Marionette	INFO	Stopped listening on port 53939
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1644610729738	geckodriver	INFO	Listening on 127.0.0.1:54017
+1644610732809	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofilepKvLiZ"
+1644610733119	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofilepKvLiZ\\search.json.mozlz4", (void 0)))
+1644610735388	Marionette	INFO	Listening on port 54025
+1644610735512	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 106: Error: Connection closed, pending request to server0.conn0.windowGlobal6442450947/domnode29, type setNodeValue failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:292:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19
+showTextEditor/done/</<@resource://devtools/client/inspector/markup/views/text-editor.js:101:25
+do@resource://devtools/client/shared/undo.js:70:16
+endBatch@resource://devtools/client/shared/undo.js:81:11
+do@resource://devtools/client/shared/undo.js:93:10
+showTextEditor/done/<@resource://devtools/client/inspector/markup/views/text-editor.js:99:31
+
+1644611013645	Marionette	INFO	Stopped listening on port 54025
+du"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1644611011147	Marionette	INFO	Stopped listening on port 54121
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1644611063697	geckodriver	INFO	Listening on 127.0.0.1:54201
+1644611066771	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofilefXMY2w"
+1644611067088	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofilefXMY2w\\search.json.mozlz4", (void 0)))
+1644611069705	Marionette	INFO	Listening on port 54209
+1644611069933	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1644611082439	Marionette	INFO	Stopped listening on port 54209
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1644611095700	geckodriver	INFO	Listening on 127.0.0.1:54269
+1644611098770	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofilegOo5Wh"
+1644611099070	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofilegOo5Wh\\search.json.mozlz4", (void 0)))
+1644611101578	Marionette	INFO	Listening on port 54278
+1644611101955	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1644611131089	Marionette	INFO	Stopped listening on port 54278
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1644611133949	geckodriver	INFO	Listening on 127.0.0.1:54340
+1644611137012	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofilemAK3UP"
+1644611137312	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofilemAK3UP\\search.json.mozlz4", (void 0)))
+1644611139829	Marionette	INFO	Listening on port 54348
+1644611140183	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1644611146460	Marionette	INFO	Stopped listening on port 54348
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1644611149095	geckodriver	INFO	Listening on 127.0.0.1:54409
+1644611152165	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofileRewkD2"
+1644611152481	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofileRewkD2\\search.json.mozlz4", (void 0)))
+1644611155054	Marionette	INFO	Listening on port 54417
+1644611155323	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1644611161282	Marionette	INFO	Stopped listening on port 54417
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1644611164662	geckodriver	INFO	Listening on 127.0.0.1:54476
+1644611167721	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofileYLwBUB"
+1644611168053	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofileYLwBUB\\search.json.mozlz4", (void 0)))
+1644611170678	Marionette	INFO	Listening on port 54484
+1644611170902	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1644611288004	Marionette	INFO	Stopped listening on port 54481644611289689	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofileJr76J2"
+1644611290022	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofileJr76J2\\search.json.mozlz4", (void 0)))
+1644611292412	Marionette	INFO	Listening on port 54554
+1644611292873	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1644612396954	Marionette	INFO	Stopped listening on port 54554
+C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofilebPOSYP"
+1644611319146	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofilebPOSYP\\search.json.mozlz4", (void 0)))
+1644611321999	Marionette	INFO	Listening on port 54622
+1644611322469	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1644611329452	Marionette	INFO	Stopped listening on port 54622
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1644611332450	geckodriver	INFO	Listening on 127.0.0.1:54682
+1644611335495	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofilePJEGEL"
+1644611335825	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofilePJEGEL\\search.json.mozlz4", (void 0)))
+1644611338222	Marionette	INFO	Listening on port 54690
+1644611338654	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1644612401086	Marionette	INFO	Stopped listening on port 54690
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+esLPYB8"
+1644611401400	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofilesLPYB8\\search.json.mozlz4", (void 0)))
+1644611404163	Marionette	INFO	Listening on port 54335
+1644611404248	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3he9SSTPTzffGJDQBOTZcvp_zoO7E8v038ekVtZ_6Vg.js line 1 > eval line 2960 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3he9SSTPTzffGJDQBOTZcvp_zoO7E8v038ekVtZ_6Vg.js line 1 > eval line 6156 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3he9SSTPTzffGJDQBOTZcvp_zoO7E8v038ekVtZ_6Vg.js line 1 > eval line 6968 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3he9SSTPTzffGJDQBOTZcvp_zoO7E8v038ekVtZ_6Vg.js line 1 > eval line 4523 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3he9SSTPTzffGJDQBOTZcvp_zoO7E8v038ekVtZ_6Vg.js line 1 > eval line 3404 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3he9SSTPTzffGJDQBOTZcvp_zoO7E8v038ekVtZ_6Vg.js line 1 > eval line 4963 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/3he9SSTPTzffGJDQBOTZcvp_zoO7E8v038ekVtZ_6Vg.js line 1 > eval line 5597 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://script.crazyegg.com/pages/scripts/0085/1990.js, line 1: Error: CE: multiple userscripts installed
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://web.whatsapp.com/serviceworker.js, line 1: TypeError: Cache.put: Cache got basic response with bad status 206 while trying to add request https://web.whatsapp.com/sequential-ptt-middle_7fa161964e93db72b8d00ae22189d75f.mp3
+JavaScript error: https://web.whatsapp.com/serviceworker.js, line 1: TypeError: Cache.put: Cache got basic response with bad status 206 while trying to add request https://web.whatsapp.com/sequential-ptt-end_62ed28be622237546fd39f9468a76a49.mp3
+JavaScript error: https://web.whatsapp.com/serviceworker.js, line 1: TypeError: Cache.put: Cache got basic response with bad status 206 while trying to add request https://web.whatsapp.com/notification_2a485d84012c106acef03b527bb54635.mp3
+
+###!!! [Parent][PBackgroundParent] Error: RunMessage(msgname=PMessagePort::Msg_Close) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PBackgroundParent] Error: RunMessage(msgname=PMessagePort::Msg_Close) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PBackgroundParent] Error: RunMessage(msgname=PMessagePort::Msg_Close) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PBackgroundParent] Error: RunMessage(msgname=PBackgroundIDBDatabase::Msg_Close) Channel closing: too late to send/recv, messages will be lost
+
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://github.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://github.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://github.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://github.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://github.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://github.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://github.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://github.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://github.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://github.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://github.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://github.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://github.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://github.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://github.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://github.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://github.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://github.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://github.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://github.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://github.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1644612412534	Marionette	INFO	Stopped listening on port 54335
+1644612451215	geckodriver	INFO	Listening on 127.0.0.1:55025
+1644612454306	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofileAiBNV4"
+1644612454670	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ricke\\AppData\\Local\\Temp\\rust_mozprofileAiBNV4\\search.json.mozlz4", (void 0)))
+1644612457402	Marionette	INFO	Listening on port 55033
+1644612457510	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://raumbuchung.bibliothek.kit.edu"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
