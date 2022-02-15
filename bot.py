@@ -5,7 +5,9 @@ from datetime import datetime
 from datetime import timedelta
 import time
 import pickle
+from os import path
 from random import random
+from random import randint
 
 import get_captcha
 
@@ -20,6 +22,14 @@ from selenium.webdriver.common.by import By
 
 
 def login(browser, name="", password="", mode="new", login_time=8, tries=0): 
+    """
+    Return number of tries for login
+
+    Login with credentials to the browser instance. 
+    Take screenshot of captcha and call get_captcha script to solve it. 
+    After inputting credentials: sleep for login_time + random part of a second
+    """
+
     tries += 1
     # Click "Anmelden"
     if mode == "new":
@@ -27,7 +37,10 @@ def login(browser, name="", password="", mode="new", login_time=8, tries=0):
     else:
         pass
 
-    browser.save_screenshot(r"temp/screen.png")
+    file_path_screenshot = path.abspath(__file__)
+    dir_path_screenshot = path.dirname(file_path_screenshot)
+    img_path_screenshot = path.join(dir_path_screenshot, "temp/screen.png")
+    browser.save_screenshot(img_path_screenshot)
 
     # Get captcha
     captcha = get_captcha.get_captcha()
@@ -47,45 +60,104 @@ def login(browser, name="", password="", mode="new", login_time=8, tries=0):
     rand_sec = random()
     time.sleep(rand_sec+login_time)
     
-    try:
-        browser.find_element(By.XPATH, "//input[@class='submit']").click()
-    except:
-        pass
+    if browser.find_elements(By.XPATH, "//input[@class='submit']"): 
+        # Instead of try else: use find_elements to return empty list instead of exception if element is not there
+        browser.find_elements(By.XPATH, "//input[@class='submit']")[0].click()
+    else:
+        print("Login error")
+        sys.exit()
     
     # Wrong captach: recursive call
     time.sleep(2)
     print(f"Login try: {tries}")
 
+    # Check if wrong captcha input or login failed generally and returned to different page
     if browser.find_element(By.XPATH, "//body").text == "Sie müssen den Captcha-Text korrekt übergeben!" or browser.find_element(By.XPATH, "//td/div[@id='logon_box']/form[@method='post']/div/input[@type='submit']").get_attribute("value") == " Anmelden ":
         browser.get("https://raumbuchung.bibliothek.kit.edu/sitzplatzreservierung/admin.php")
         login(browser, name=name, password=password, mode="again", login_time=login_time, tries=tries)
 
     return tries
-
-    
    
-def get_seat(browser, seat_numbers, slot = "", favorites=list(), mode="schedule"):
+def conflict_check(browser):
+    """
+    Return False if conflict, True if no conflict 
+    
+    Check if seat reservation was succesfull.
+    Return can directly be used to evaluate if seat reservation was succesfull). If element for conflict is found (list of elements not empty) -> check if policy
+    conflict or reservation conflict. 
+
+    If element for conflict is not found -> Assume succesfull reservation    
+    """
+    # Conflict
+    
+    # Check if Konflikt emerges, if yes continue with logic -> policy or conflict 
+    # Use find_elementS to return list, list might be empty if element is not there (instead of try except)
+    if browser.find_elements(By.XPATH, "//div[@id='contents']/h2"):
+
+        if browser.find_elements(By.XPATH, "//div[@id='contents']/h2")[0].text == "Konflikt in der Planung":
+        
+            # if policy conflict
+            if browser.find_element(By.XPATH, "//div[@id='contents']/ul/li").text.startswith("Die maximale Anzahl"):
+                print("Maximum amount of seats reserved, bot out")
+                sys.exit()
+            
+            # if booking conflict
+            else:
+                browser.back()
+                browser.back()
+
+                # False for conflict
+                return False
+    # Assume no conflict
+    else:
+        return True
+
+def get_seat(browser, seat_numbers, slot = "", favorites=list(), mode="fast"):
+    """
+    return True if seat reserved; otherwise return False
+
+    Takes as args: instance of browser, the dictionary for the floor, the timeslot (row in the table), a list of favorite seats and - most importantly - the mode. 
+    Favorite seats will be converted into absolute indices and compared to indices of free seats. 
+    
+    If mode == "fast": grab random, free seat. Favorite seats are dismissed to save time
+    If mode == "schedule": support favorite seats by running over all seats and calculating the index of free seats (not necessary for fast mode)
+    """
 
     reserved = False # Boolean for seat
     marked = False # Boolean for favorite seat
     indices = list()
     counter = 0
 
-    # Fast mode
+    #######################
+    ### Fast mode #########
+    #######################
+
     if mode=="fast": 
-        try:
-            seats = browser.find_elements(By.XPATH, f"//tr/td[div/a[text()='{slot}']]/following-sibling::td[@class='new']")
-            seats[-1].click()
-            browser.find_element(By.XPATH, "//input[@class='submit default_action']").click()
-            reserved=True
-            return reserved
-        except:
+        
+        # Find all seats that are free
+        seats = browser.find_elements(By.XPATH, f"//tr/td[div/a[text()='{slot}']]/following-sibling::td[@class='new']")
+
+        # No free seats
+        if not seats:
             return reserved
 
-    # Schedule mode
+        # Get last seat
+        random_seat_number = randint(0, len(seats)-1)
+        seats[random_seat_number].click()
+        browser.find_element(By.XPATH, "//input[@class='submit default_action']").click() 
+
+        return conflict_check(browser)   
+
+
+    #######################
+    ### Schedule mode #####
+    #######################
+    
+    # Find all seats (go over all seats in order to get position of seats, compare this position of favorite positions)
     seats = browser.find_elements(By.XPATH, f"//tr/td[div/a[text()='{slot}']]/following-sibling::td[not(@class='row_labels')]")
     for seat in seats:
-        if seat.find_element(By.XPATH, ".//div/a").get_attribute("title") != "[X]" and seat.get_attribute("class") != "K writable":
+        #if seat.find_element(By.XPATH, ".//div/a").get_attribute("title") != "[X]" and seat.get_attribute("class") != "K writable":
+        if seat.get_attribute("class") == "new":
             indices.append(counter)
         counter+=1
 
@@ -93,7 +165,7 @@ def get_seat(browser, seat_numbers, slot = "", favorites=list(), mode="schedule"
     if not indices:
         return reserved
     else: 
-        print("Seats available")
+        print("Seats available\n")
 
     # Free seats
     ## Check favorites
@@ -104,27 +176,51 @@ def get_seat(browser, seat_numbers, slot = "", favorites=list(), mode="schedule"
             try:
                 fav_seats_index.add(seat_numbers[fav])
             except:
-                pass
+                print(f"Favorite seat {fav} does not exist.")
         
         ### Check if free seat index in favorites index list
         for ind in indices: 
             if ind in fav_seats_index: 
                 seats[ind].click()
-                browser.find_element(By.XPATH, "//input[@class='submit default_action']").click()
-                marked=True
-                reserved=True
-                print("Got favorite seat!\n")
-                break
 
-    if not marked: 
-        seats[indices[-1]].click()
-        browser.find_element(By.XPATH, "//input[@class='submit default_action']").click()
-        reserved=True
-        print("Favorite seat missed, got alternative\n")
+                # Submit and check for conflicts
+                browser.find_element(By.XPATH, "//input[@class='submit default_action']").click()
+                
+                if conflict_check(browser): # No pass
+                    print("Got favorite seat!\n")
+                    marked = True # Got favorite seat
+                    reserved = True # Got seat -> out
+                else: 
+                    pass
     
+    # Reservation of favorite seat failed
+    if not marked: 
+        random_seat_number = randint(0, len(indices)-1)
+    
+        # One free seat left: take it
+        if len(indices) == 1:
+            seats[indices[random_seat_number]].click()
+
+        # More seats left: take random one
+        elif len(indices) >= 2:
+            seats[indices[random_seat_number]].click()
+        
+        # Submit and check for conflicts
+        browser.find_element(By.XPATH, "//input[@class='submit default_action']").click()
+
+        if conflict_check(browser): 
+            print("Favorite seat missed, got alternative\n")
+            marked = True
+            reserved = True
+        else: 
+            pass
+
     return reserved
 
 def main(name="", password="", floor = "Altbau EG KIT-BIB (LBS)", slot = "nachmittags", favorites=[], area=20, start_time=200, booking_time=10, login_time=8, mode="schedule"):
+    """
+    Main function. Login and run seat reservation program. 
+    """
 
     today = date.today()
     now = datetime.now()
@@ -133,6 +229,8 @@ def main(name="", password="", floor = "Altbau EG KIT-BIB (LBS)", slot = "nachmi
     firefox_options.add_argument("--log-level=OFF")
     #firefox_options.add_argument("--headless")
     browser = webdriver.Firefox(executable_path=GeckoDriverManager().install(), options=firefox_options)
+    browser.set_window_position(0, 0)     
+    browser.set_window_size(1024, 768)
     print("================================\n")
 
     day = int(today.strftime("%d"))
@@ -158,7 +256,6 @@ def main(name="", password="", floor = "Altbau EG KIT-BIB (LBS)", slot = "nachmi
         slot=slot
 
     assert slot in set(["nachmittags", "vormittags", "abends", "nachts"]), "Slot: Falscher Zeitraum"
-
 
     print(f"Hour: {hour}")
     print(f"Target day: {day}")
@@ -209,11 +306,12 @@ def main(name="", password="", floor = "Altbau EG KIT-BIB (LBS)", slot = "nachmi
     counter_sec = 0
     while datetime.now() < start_date: 
         time.sleep(1)
+        rand_sleep_time = randint(40,100)
         if datetime.now() >= start_date:
             break
         counter_sec += 1
 
-        if counter_sec == 20:
+        if counter_sec == rand_sleep_time:
             print(f"Refresh at: {datetime.now().strftime('%y-%m-%d %H:%M:%S')}")
             browser.find_element(By.XPATH, "//td[@id='company']/div/div/a[text()='Sitzplatzreservierung']").click()
             WebDriverWait(browser, 20).until(EC.presence_of_element_located((By.XPATH, "//td[@id='company']/div/div/a[text()='Sitzplatzreservierung']")))
@@ -226,8 +324,8 @@ def main(name="", password="", floor = "Altbau EG KIT-BIB (LBS)", slot = "nachmi
     browser.get(f"https://raumbuchung.bibliothek.kit.edu/sitzplatzreservierung/day.php?year={year}&month={month}&day={day}&area={area}")
     start = datetime.now()
     end = start + timedelta(seconds=booking_time)
-    print(f" >>> Start time: {start.strftime('%y-%m-%d %H:%M:%S')}")
-    print(f" >>> Projected end time: {end.strftime('%y-%m-%d %H:%M:%S')}")
+    print(f" >>>>>>>>>>> Booking start: {start.strftime('%y-%m-%d %H:%M:%S')} <<<<<<<<<<<<<<<<<<<")
+    print(f" >>>>>>>>>>> Projected booking end: {end.strftime('%y-%m-%d %H:%M:%S')} <<<<<<<<<<<<<")
 
     while not status: 
         browser.refresh()
@@ -237,7 +335,7 @@ def main(name="", password="", floor = "Altbau EG KIT-BIB (LBS)", slot = "nachmi
         
         if datetime.now() > end: 
             break
-    print("Booking time up\n")
+    print(">>>>>>>>>>>>>>>>>>>>>> Booking time up <<<<<<<<<<<<<<<<<<<<<\n")
 
     if not status: 
         print("Error: Seat not reserved")
@@ -268,7 +366,13 @@ if __name__ == "__main__":
         elif tup[0] == 'p': 
             password = tup[1]
         elif tup[0] == 'fl':
-            with open("seat_dict/seat_numbers.pickle", "rb") as handle: 
+            file_path = path.abspath(__file__)
+            dir_path = path.dirname(file_path)
+            di_path = path.join(dir_path, "seat_dict/seat_numbers.pickle")
+            print(file_path)
+            print(dir_path)
+            print(di_path)
+            with open(di_path, "rb") as handle: 
                 seat_dic = pickle.load(handle)
                 
                 seat_numbers = seat_dic[tup[1]][0]
@@ -307,7 +411,6 @@ if __name__ == "__main__":
     if mode == "fast": 
         assert booking_time, "Specify how long to retry booking with [-bt ...]"
         assert slot, "Specify timeslot for today with [-s ...] "
-        assert not start_time, "Fast mode starts after login time for the intervall specified in booking time [bt]"
     elif mode == "schedule": 
         assert booking_time, "Specify how long to retry booking with [-bt ...]"
         assert start_time, "Specify start date and time for booking seat [-st yyyy mm dd HH MM SS]"

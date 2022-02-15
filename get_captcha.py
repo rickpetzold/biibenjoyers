@@ -2,6 +2,7 @@ import numpy as np
 import cv2
 from PIL import Image
 import pytesseract
+from os import path
 
 
 def remove_noise(image):
@@ -17,15 +18,27 @@ def remove_noise(image):
 
 
 def get_captcha():
-    image = cv2.imread(r"temp/screen.png")
-    crop = image[220:310, 300:470]
-    cv2.imwrite(r"temp/crop.png", crop)
-    image = cv2.imread("temp/crop.png")
+    # Absolute paths
+    file_path = path.abspath(__file__)
+    dir_path = path.dirname(file_path)
+
+    img_path = path.join(dir_path, "temp/screen.png")
+    crop_path = path.join(dir_path, "temp/crop.png")
+    noise_path = path.join(dir_path, "temp/noise.png")
+
+    # Get image from login captcha
+    image = cv2.imread(img_path)
+
+    # Crop, reduce noise and apply grey
+    crop = image[220:310, 290:460]
+    cv2.imwrite(crop_path, crop)
+    image = cv2.imread(crop_path)
 
     noise = remove_noise(image)
     grey = get_grayscale(noise)
+    cv2.imwrite(noise_path, grey)
 
-    cv2.imwrite(r"temp/noise.png", grey)
+    # Get captcha text 
     cap = pytesseract.image_to_string(grey).strip()
     
     return cap
