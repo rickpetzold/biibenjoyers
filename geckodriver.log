@@ -22278,3 +22278,1650 @@ unwatchForTabs()@TargetList.jsm:70
 unwatchForTargets()@TargetList.jsm:37
 destructor()@TargetList.jsm:109
 close()@RemoteAgent.jsm:136
+1645011852013	geckodriver	INFO	Listening on 127.0.0.1:43371
+1645011852522	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "58861" "-no-remote" "-profile" "/tmp/rust_mozprofileBrsffp"
+1645011853197	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileBrsffp/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:58861/devtools/browser/cf0086ea-139f-4520-8565-7301e1c260d1
+1645011854991	Marionette	INFO	Listening on port 37305
+1645011855045	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1645011880280	Marionette	INFO	Stopped listening on port 37305
+1645011880554	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1645014365028	geckodriver	INFO	Listening on 127.0.0.1:60633
+1645014365537	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "58633" "-no-remote" "-profile" "/tmp/rust_mozprofileGllVDh"
+1645014366201	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGllVDh/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:58633/devtools/browser/36763d96-7fcc-443c-aac3-21974fab6a0d
+1645014368061	Marionette	INFO	Listening on port 34077
+1645014368160	Marionette	WARN	TLS certificate errors will be ignored for this session
+1645014433656	geckodriver	INFO	Listening on 127.0.0.1:37125
+1645014434163	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "41375" "-no-remote" "-profile" "/tmp/rust_mozprofileWdSuqy"
+1645014434815	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileWdSuqy/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+DevTools listening on ws://localhost:41375/devtools/browser/691d4e58-45c1-4e35-a1fa-cd667666cfdc
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+1645014436446	Marionette	INFO	Listening on port 37811
+1645014436498	Marionette	WARN	TLS certificate errors will be ignored for this session
+1645014469791	geckodriver	INFO	Listening on 127.0.0.1:58971
+1645014470299	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "57191" "-no-remote" "-profile" "/tmp/rust_mozprofile53C6e4"
+1645014471080	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile53C6e4/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:57191/devtools/browser/73c4fa6d-1b58-4577-a194-3f1b5452e739
+1645014473035	Marionette	INFO	Listening on port 40625
+1645014473122	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.info: MINT: main/search-config update being skipped
+console.info: MINT: main/search-config update being skipped
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1645032459970	geckodriver	INFO	Listening on 127.0.0.1:52651
+1645032460478	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "46789" "-no-remote" "-profile" "/tmp/rust_mozprofileVWEpAT"
+1645032461088	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVWEpAT/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:46789/devtools/browser/36e77836-d41c-462d-a23c-4d1959f301ee
+1645032462664	Marionette	INFO	Listening on port 45959
+1645032462704	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1645032493017	geckodriver	INFO	Listening on 127.0.0.1:39031
+1645032493525	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "44453" "-no-remote" "-profile" "/tmp/rust_mozprofileWhKUxW"
+1645032494179	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileWhKUxW/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:44453/devtools/browser/b3b1e1e6-4818-4575-a60a-5862c2857a25
+1645032495911	Marionette	INFO	Listening on port 44971
+1645032495955	Marionette	WARN	TLS certificate errors will be ignored for this session
+1645032579308	geckodriver	INFO	Listening on 127.0.0.1:37657
+1645032579822	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "57421" "-no-remote" "-profile" "/tmp/rust_mozprofilem97Ovq"
+1645032580553	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilem97Ovq/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:57421/devtools/browser/d53cf7d7-66ed-4729-acbe-f56977e31aa4
+1645032582332	Marionette	INFO	Listening on port 35921
+1645032582444	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1645033338993	Marionette	INFO	Stopped listening on port 44971
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645033339014	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+!!! error running onStopped callback: TypeError: callback is not a function
+1645033343538	Marionette	INFO	Stopped listening on port 35921
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645033343771	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1645048593019	geckodriver	INFO	Listening on 127.0.0.1:49741
+1645048593524	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "52015" "-no-remote" "-profile" "/tmp/rust_mozprofilevHb898"
+1645048594265	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevHb898/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:52015/devtools/browser/cfaef53d-f5bb-45a4-a233-522951a7d907
+1645048595985	Marionette	INFO	Listening on port 38351
+1645048596047	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1645048603111	Marionette	INFO	Stopped listening on port 38351
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645048603398	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1645048608334	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+1645048622980	geckodriver	INFO	Listening on 127.0.0.1:48143
+1645048623487	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "54749" "-no-remote" "-profile" "/tmp/rust_mozprofileO3pzPV"
+1645048624124	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileO3pzPV/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:54749/devtools/browser/1b453817-ad67-4139-8bd7-2fc45303d075
+1645048625934	Marionette	INFO	Listening on port 34771
+1645048626033	Marionette	WARN	TLS certificate errors will be ignored for this session
+1645048649099	geckodriver	INFO	Listening on 127.0.0.1:38605
+1645048649607	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "41443" "-no-remote" "-profile" "/tmp/rust_mozprofilewxmq7r"
+1645048650275	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilewxmq7r/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:41443/devtools/browser/c7b875db-2e7f-4481-9bb4-52c2c5adb7fa
+1645048651931	Marionette	INFO	Listening on port 35007
+1645048652031	Marionette	WARN	TLS certificate errors will be ignored for this session
+1645048718868	geckodriver	INFO	Listening on 127.0.0.1:44515
+1645048719381	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "49927" "-no-remote" "-profile" "/tmp/rust_mozprofileUTM9k6"
+1645048720029	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileUTM9k6/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:49927/devtools/browser/d1e73549-286d-445c-b5fd-2a093ebf8a84
+1645048721624	Marionette	INFO	Listening on port 32827
+1645048721715	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.info: MINT: main/search-config update being skipped
+console.info: MINT: main/search-config update being skipped
+1645048937410	geckodriver	INFO	Listening on 127.0.0.1:49897
+1645048937923	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "60955" "-no-remote" "-profile" "/tmp/rust_mozprofile38qgDW"
+1645048938615	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile38qgDW/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:60955/devtools/browser/4c9aacaf-169d-4f9e-baa0-3420a9e7c493
+1645048940574	Marionette	INFO	Listening on port 35993
+1645048940656	Marionette	WARN	TLS certificate errors will be ignored for this session
+1645048969983	geckodriver	INFO	Listening on 127.0.0.1:55211
+1645048970497	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "51425" "-no-remote" "-profile" "/tmp/rust_mozprofilewPyTos"
+1645048971190	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilewPyTos/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:51425/devtools/browser/bb3eb1fd-ebd5-4895-ab09-151b830bddbb
+1645048972910	Marionette	INFO	Listening on port 35163
+1645048973019	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.info: MINT: main/search-config update being skipped
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1645049040007	geckodriver	INFO	Listening on 127.0.0.1:51677
+1645049040015	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "44385" "-no-remote" "-profile" "/tmp/rust_mozprofileOXeds2"
+1645049040660	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileOXeds2/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:44385/devtools/browser/68d6f4c8-ebf8-485a-bc1c-d26aa6acabc3
+1645049042421	Marionette	INFO	Listening on port 46233
+1645049042442	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1645049052699	geckodriver	INFO	Listening on 127.0.0.1:54037
+1645049053213	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "45069" "-no-remote" "-profile" "/tmp/rust_mozprofileyvw8w4"
+1645049053919	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileyvw8w4/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:45069/devtools/browser/b25c2000-4048-4a5a-8c53-c9771bb2e0a1
+1645049056098	Marionette	INFO	Listening on port 42545
+1645049056142	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1645049205740	geckodriver	INFO	Listening on 127.0.0.1:53113
+1645049206248	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "36059" "-no-remote" "-profile" "/tmp/rust_mozprofile1tG537"
+1645049206895	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1tG537/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:36059/devtools/browser/d8aee71f-b6b8-4bf4-af75-43f8d869de9a
+1645049208498	Marionette	INFO	Listening on port 36861
+1645049208575	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1645049526666	geckodriver	INFO	Listening on 127.0.0.1:46613
+1645049527175	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "33029" "-no-remote" "-profile" "/tmp/rust_mozprofilexqgGTz"
+1645049527848	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexqgGTz/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:33029/devtools/browser/3f5ea4c2-f7c1-49ba-a9bc-54cf78abe004
+1645049529362	Marionette	INFO	Listening on port 37899
+1645049529407	Marionette	WARN	TLS certificate errors will be ignored for this session
+1645049581582	geckodriver	INFO	Listening on 127.0.0.1:42843
+1645049582102	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "34809" "-no-remote" "-profile" "/tmp/rust_mozprofilequZ90e"
+1645049582803	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilequZ90e/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:34809/devtools/browser/eebbd841-d1c0-485a-b368-a9db14a79d10
+1645049584591	Marionette	INFO	Listening on port 39325
+1645049584633	Marionette	WARN	TLS certificate errors will be ignored for this session
+1645049625945	geckodriver	INFO	Listening on 127.0.0.1:60927
+1645049626453	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "54245" "-no-remote" "-profile" "/tmp/rust_mozprofileRSWMLD"
+1645049627115	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileRSWMLD/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:54245/devtools/browser/e1bc459b-7e63-4276-91b6-cba5c5cc6907
+1645049628819	Marionette	INFO	Listening on port 39081
+1645049628877	Marionette	WARN	TLS certificate errors will be ignored for this session
+1645049653484	geckodriver	INFO	Listening on 127.0.0.1:45735
+1645049653998	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "58329" "-no-remote" "-profile" "/tmp/rust_mozprofileaNOyu9"
+1645049654672	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileaNOyu9/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:58329/devtools/browser/7796bd4f-e14e-43f7-b15d-8b89f4453190
+1645049656486	Marionette	INFO	Listening on port 32999
+1645049656531	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1645049694105	geckodriver	INFO	Listening on 127.0.0.1:57351
+1645049694619	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "60507" "-no-remote" "-profile" "/tmp/rust_mozprofile0TOC6H"
+1645049695288	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile0TOC6H/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:60507/devtools/browser/2e397862-1773-4966-9b25-27dcf4fce365
+1645049697316	Marionette	INFO	Listening on port 40213
+1645049697353	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.info: MINT: main/search-config update being skipped
+console.info: MINT: main/search-config update being skipped
+console.info: MINT: main/search-config update being skipped
+console.info: MINT: main/search-config update being skipped
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+!!! error running onStopped callback: TypeError: callback is not a function
+1645050484954	Marionette	INFO	Stopped listening on port 34077
+1645050484977	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+!!! error running onStopped callback: TypeError: callback is not a function
+1645050486466	Marionette	INFO	Stopped listening on port 37811
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645050486486	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1645050532935	geckodriver	INFO	Listening on 127.0.0.1:33535
+1645050532943	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "36351" "-no-remote" "-profile" "/tmp/rust_mozprofilencTNJU"
+1645050533613	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilencTNJU/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:36351/devtools/browser/0b61d7e5-a7c7-41ea-9c37-787809296dee
+1645050535250	Marionette	INFO	Listening on port 38887
+1645050535366	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1645050878136	geckodriver	INFO	Listening on 127.0.0.1:35957
+1645050878649	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "37021" "-no-remote" "-profile" "/tmp/rust_mozprofilek2QmNc"
+1645050879325	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilek2QmNc/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:37021/devtools/browser/7c6d1a1e-4138-4929-ba9f-c1874d105bdc
+1645050880958	Marionette	INFO	Listening on port 41107
+1645050881098	Marionette	WARN	TLS certificate errors will be ignored for this session
+1645050888433	geckodriver	INFO	Listening on 127.0.0.1:40985
+1645050888941	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "34057" "-no-remote" "-profile" "/tmp/rust_mozprofileLB1N1T"
+1645050889600	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLB1N1T/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:34057/devtools/browser/ea71efa3-6442-413c-80ff-76fbedf3cf62
+1645050891103	Marionette	INFO	Listening on port 43869
+1645050891167	Marionette	WARN	TLS certificate errors will be ignored for this session
+1645050901963	geckodriver	INFO	Listening on 127.0.0.1:43121
+1645050902471	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "44611" "-no-remote" "-profile" "/tmp/rust_mozprofile3wcoIt"
+1645050903156	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile3wcoIt/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+DevTools listening on ws://localhost:44611/devtools/browser/1b81e7d2-7f2b-485f-a7f5-ed54ea21169d
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+1645050904935	Marionette	INFO	Listening on port 36883
+1645050904993	Marionette	WARN	TLS certificate errors will be ignored for this session
+1645050962112	geckodriver	INFO	Listening on 127.0.0.1:57857
+1645050962626	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "49777" "-no-remote" "-profile" "/tmp/rust_mozprofileOvUgqj"
+1645050963321	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileOvUgqj/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:49777/devtools/browser/a74f0236-7f13-4130-a127-ce1a695ae037
+1645050965090	Marionette	INFO	Listening on port 40179
+1645050965157	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.info: MINT: main/search-config update being skipped
+console.info: MINT: main/search-config update being skipped
+console.info: MINT: main/search-config update being skipped
+console.info: MINT: main/search-config update being skipped
+1645134277554	geckodriver	INFO	Listening on 127.0.0.1:40383
+1645134277558	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "35677" "-no-remote" "-profile" "/tmp/rust_mozprofilem8NtzE"
+1645134278253	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilem8NtzE/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:35677/devtools/browser/1cb5f53a-ef66-4cca-9b87-73bf9c4fe727
+1645134279959	Marionette	INFO	Listening on port 42651
+1645134279981	Marionette	WARN	TLS certificate errors will be ignored for this session
+1645134290744	geckodriver	INFO	Listening on 127.0.0.1:44343
+1645134291252	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "42351" "-no-remote" "-profile" "/tmp/rust_mozprofilerQdSSD"
+1645134291935	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilerQdSSD/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:42351/devtools/browser/41eefe89-21bb-43b1-a6c7-379c51670be2
+1645134293940	Marionette	INFO	Listening on port 44483
+1645134293985	Marionette	WARN	TLS certificate errors will be ignored for this session
+1645134326407	geckodriver	INFO	Listening on 127.0.0.1:56827
+1645134326916	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "48613" "-no-remote" "-profile" "/tmp/rust_mozprofile487WwB"
+1645134327549	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile487WwB/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:48613/devtools/browser/3cca1b02-8c7b-4620-869e-0e2ee9de046d
+1645134329310	Marionette	INFO	Listening on port 41101
+1645134329340	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1645134353247	Marionette	INFO	Stopped listening on port 41101
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645134353523	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1645134533886	geckodriver	INFO	Listening on 127.0.0.1:43733
+1645134533890	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "58337" "-no-remote" "-profile" "/tmp/rust_mozprofileznqYQT"
+1645134534556	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileznqYQT/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+DevTools listening on ws://localhost:58337/devtools/browser/a86115bd-f188-4e96-885f-6f9e76363268
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+1645134536253	Marionette	INFO	Listening on port 39825
+1645134536319	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.info: MINT: main/search-config update being skipped
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+console.info: MINT: main/search-config update being skipped
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1645134672513	geckodriver	INFO	Listening on 127.0.0.1:52945
+1645134672517	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "56869" "-no-remote" "-profile" "/tmp/rust_mozprofile5Y7tFk"
+1645134673138	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile5Y7tFk/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:56869/devtools/browser/2409ef94-c9ce-48d2-859d-3cc736de1212
+1645134674795	Marionette	INFO	Listening on port 43817
+1645134674839	Marionette	WARN	TLS certificate errors will be ignored for this session
+1645134709278	geckodriver	INFO	Listening on 127.0.0.1:49015
+1645134709288	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "51867" "-no-remote" "-profile" "/tmp/rust_mozprofileEjUo1q"
+1645134709963	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileEjUo1q/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:51867/devtools/browser/81a73e18-5d47-49ac-b7ec-66e07f3f5858
+1645134711742	Marionette	INFO	Listening on port 44381
+1645134711812	Marionette	WARN	TLS certificate errors will be ignored for this session
+1645134728536	geckodriver	INFO	Listening on 127.0.0.1:60497
+1645134764902	geckodriver	INFO	Listening on 127.0.0.1:55471
+1645134764906	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "41381" "-no-remote" "-profile" "/tmp/rust_mozprofile8iN3qJ"
+1645134765551	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile8iN3qJ/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:41381/devtools/browser/c57cb93e-cc8f-4a4e-8f06-bf3f8af800bb
+1645134767121	Marionette	INFO	Listening on port 46849
+1645134767227	Marionette	WARN	TLS certificate errors will be ignored for this session
+1645134786262	geckodriver	INFO	Listening on 127.0.0.1:48401
+1645134786775	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "46271" "-no-remote" "-profile" "/tmp/rust_mozprofile9mOKeN"
+1645134787464	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile9mOKeN/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:46271/devtools/browser/f463e2a6-c96b-42e6-8386-16f29c1be0c4
+1645134789009	Marionette	INFO	Listening on port 45329
+1645134789099	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.info: MINT: main/search-config update being skipped
+console.info: MINT: main/search-config update being skipped
+console.info: MINT: main/search-config update being skipped
+console.info: MINT: main/search-config update being skipped
+1645170937970	geckodriver	INFO	Listening on 127.0.0.1:43091
+1645170937973	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "42615" "-no-remote" "-profile" "/tmp/rust_mozprofileBSxnDa"
+1645170938618	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileBSxnDa/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:42615/devtools/browser/ef6604ee-723e-4109-afff-d163cd784e31
+1645170940232	Marionette	INFO	Listening on port 38477
+1645170940295	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1645170973538	Marionette	INFO	Stopped listening on port 38477
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645170973815	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1645170982619	geckodriver	INFO	Listening on 127.0.0.1:42271
+1645170983134	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "53297" "-no-remote" "-profile" "/tmp/rust_mozprofileeRDdFV"
+1645170983834	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileeRDdFV/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:53297/devtools/browser/4a6b336d-8d1b-4d80-902d-fff6af9056d7
+1645170985479	Marionette	INFO	Listening on port 46743
+1645170985565	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1645171043776	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+1645171043843	Marionette	INFO	Stopped listening on port 46743
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645171044159	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1645173300899	geckodriver	INFO	Listening on 127.0.0.1:38639
+1645173301415	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "43329" "-no-remote" "-profile" "/tmp/rust_mozprofileqW8oUE"
+1645173302101	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqW8oUE/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:43329/devtools/browser/02be9eb0-fd28-485c-b446-0d1d91535b69
+1645173303641	Marionette	INFO	Listening on port 42191
+1645173303737	Marionette	WARN	TLS certificate errors will be ignored for this session
+1645173382084	geckodriver	INFO	Listening on 127.0.0.1:43811
+1645173382600	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "52255" "-no-remote" "-profile" "/tmp/rust_mozprofileMTNLbU"
+1645173383277	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileMTNLbU/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:52255/devtools/browser/59eb00ec-ed26-426e-ad4c-76bbf26f672c
+1645173385168	Marionette	INFO	Listening on port 37911
+1645173385224	Marionette	WARN	TLS certificate errors will be ignored for this session
+1645173538303	geckodriver	INFO	Listening on 127.0.0.1:36385
+1645173538825	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "48269" "-no-remote" "-profile" "/tmp/rust_mozprofilewAG9uS"
+1645173539524	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilewAG9uS/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:48269/devtools/browser/81ce7a4b-29cd-4ed8-a2d4-5f41be8d56f9
+1645173541324	Marionette	INFO	Listening on port 33175
+1645173541356	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1645173566378	Marionette	INFO	Stopped listening on port 33175
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645173566670	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1645173568029	geckodriver	INFO	Listening on 127.0.0.1:54255
+1645173568544	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "50267" "-no-remote" "-profile" "/tmp/rust_mozprofileUADeaY"
+1645173569232	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileUADeaY/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:50267/devtools/browser/83c9ecd7-00d3-47ad-a134-b42698e71e44
+1645173571108	Marionette	INFO	Listening on port 44549
+1645173571168	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.info: MINT: main/search-config update being skipped
+console.info: MINT: main/search-config update being skipped
+1645173696106	geckodriver	INFO	Listening on 127.0.0.1:51315
+1645173696622	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "36089" "-no-remote" "-profile" "/tmp/rust_mozprofile9fCeFE"
+1645173697327	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile9fCeFE/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:36089/devtools/browser/01587165-18bc-4997-95ca-5384a2e6dd3b
+1645173698990	Marionette	INFO	Listening on port 33727
+1645173699045	Marionette	WARN	TLS certificate errors will be ignored for this session
+1645173735214	geckodriver	INFO	Listening on 127.0.0.1:47781
+1645173735729	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "40791" "-no-remote" "-profile" "/tmp/rust_mozprofilev5hzYR"
+1645173736423	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilev5hzYR/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:40791/devtools/browser/eb894ba4-77bd-424c-876d-0ea38128b910
+1645173738106	Marionette	INFO	Listening on port 38877
+1645173738153	Marionette	WARN	TLS certificate errors will be ignored for this session
+1645173785725	geckodriver	INFO	Listening on 127.0.0.1:51295
+1645173786240	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "54449" "-no-remote" "-profile" "/tmp/rust_mozprofilePnadRW"
+1645173786931	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilePnadRW/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:54449/devtools/browser/e4970ef3-55e9-4429-8b72-60e83c04cbe8
+1645173788763	Marionette	INFO	Listening on port 37551
+1645173788863	Marionette	WARN	TLS certificate errors will be ignored for this session
+1645173828257	geckodriver	INFO	Listening on 127.0.0.1:52167
+1645173828775	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "49701" "-no-remote" "-profile" "/tmp/rust_mozprofileiY9N5x"
+1645173829470	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileiY9N5x/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:49701/devtools/browser/f1801c68-0c62-4bf8-bfcf-fd5cdd5f2a0c
+1645173831263	Marionette	INFO	Listening on port 46109
+1645173831300	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.info: MINT: main/search-config update being skipped
+1645173878192	geckodriver	INFO	Listening on 127.0.0.1:59017
+1645173878710	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "48571" "-no-remote" "-profile" "/tmp/rust_mozprofilewNAfPh"
+1645173879408	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilewNAfPh/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:48571/devtools/browser/d5aa4a22-8f92-4ff0-b0eb-ae97509198f9
+1645173881338	Marionette	INFO	Listening on port 42469
+1645173881434	Marionette	WARN	TLS certificate errors will be ignored for this session
+1645173943269	geckodriver	INFO	Listening on 127.0.0.1:60661
+1645173943782	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "33205" "-no-remote" "-profile" "/tmp/rust_mozprofile2k6KOe"
+1645173944475	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2k6KOe/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:33205/devtools/browser/7430ffbc-19e5-4a52-80f4-a3f5f3c7bfca
+1645173946052	Marionette	INFO	Listening on port 39363
+1645173946106	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.info: MINT: main/search-config update being skipped
+console.info: MINT: main/search-config update being skipped
+1645174007228	geckodriver	INFO	Listening on 127.0.0.1:49025
+1645174007239	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "58669" "-no-remote" "-profile" "/tmp/rust_mozprofilelyqTUK"
+1645174007934	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelyqTUK/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:58669/devtools/browser/02c576fd-7790-4ea7-a9ca-7826fb71e64f
+1645174009958	Marionette	INFO	Listening on port 37229
+1645174010067	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.info: MINT: main/search-config update being skipped
+!!! error running onStopped callback: TypeError: callback is not a function
+1645174089204	Marionette	INFO	Stopped listening on port 37229
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645174089526	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1645174089556	Marionette	INFO	Stopped listening on port 39363
+!!! error running onStopped callback: TypeError: callback is not a function
+1645174089753	Marionette	INFO	Stopped listening on port 42469
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645174089771	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+!!! error running onStopped callback: TypeError: callback is not a function
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645174089909	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1645174089940	Marionette	INFO	Stopped listening on port 46109
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645174089959	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+!!! error running onStopped callback: TypeError: callback is not a function
+1645174090203	Marionette	INFO	Stopped listening on port 37551
+1645174090225	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+!!! error running onStopped callback: TypeError: callback is not a function
+1645174090558	Marionette	INFO	Stopped listening on port 38877
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645174090580	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+!!! error running onStopped callback: TypeError: callback is not a function
+1645174090733	Marionette	INFO	Stopped listening on port 33727
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645174090752	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+!!! error running onStopped callback: TypeError: callback is not a function
+1645174095696	Marionette	INFO	Stopped listening on port 44483
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645174095718	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+!!! error running onStopped callback: TypeError: callback is not a function
+1645174096997	Marionette	INFO	Stopped listening on port 43817
+1645174097023	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+!!! error running onStopped callback: TypeError: callback is not a function
+1645174098069	Marionette	INFO	Stopped listening on port 44381
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645174098092	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+!!! error running onStopped callback: TypeError: callback is not a function
+1645174099296	Marionette	INFO	Stopped listening on port 46849
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645174099318	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+!!! error running onStopped callback: TypeError: callback is not a function
+1645174099926	Marionette	INFO	Stopped listening on port 45329
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645174099950	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+!!! error running onStopped callback: TypeError: callback is not a function
+1645174100392	Marionette	INFO	Stopped listening on port 42191
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645174100413	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+!!! error running onStopped callback: TypeError: callback is not a function
+1645174100572	Marionette	INFO	Stopped listening on port 37911
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645174100594	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+!!! error running onStopped callback: TypeError: callback is not a function
+1645174101106	Marionette	INFO	Stopped listening on port 44549
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645174101129	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1645174107538	geckodriver	INFO	Listening on 127.0.0.1:58225
+1645174108047	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "54749" "-no-remote" "-profile" "/tmp/rust_mozprofilehMObhH"
+1645174108712	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehMObhH/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:54749/devtools/browser/88ab6d30-a942-4eed-aba3-4543c3cf7442
+1645174110517	Marionette	INFO	Listening on port 46263
+1645174110571	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.info: MINT: main/search-config update being skipped
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://analytics.webgains.io/pvClk.min.js, line 1: WebGL context was lost.
+JavaScript warning: https://analytics.webgains.io/pvClk.min.js, line 1: WebGL context was lost.
+JavaScript warning: https://analytics.webgains.io/pvClk.min.js, line 1: WebGL context was lost.
+JavaScript warning: https://analytics.webgains.io/pvClk.min.js, line 1: WebGL context was lost.
+JavaScript warning: https://analytics.webgains.io/pvClk.min.js, line 1: WebGL context was lost.
+JavaScript warning: https://analytics.webgains.io/pvClk.min.js, line 1: WebGL context was lost.
+JavaScript warning: https://analytics.webgains.io/pvClk.min.js, line 1: WebGL context was lost.
+JavaScript warning: https://analytics.webgains.io/pvClk.min.js, line 1: WebGL context was lost.
+JavaScript warning: https://analytics.webgains.io/pvClk.min.js, line 1: WebGL context was lost.
+JavaScript warning: https://analytics.webgains.io/pvClk.min.js, line 1: WebGL context was lost.
+JavaScript warning: https://analytics.webgains.io/pvClk.min.js, line 1: WebGL context was lost.
+JavaScript warning: https://analytics.webgains.io/pvClk.min.js, line 1: WebGL context was lost.
+JavaScript warning: https://analytics.webgains.io/pvClk.min.js, line 1: WebGL context was lost.
+JavaScript warning: https://analytics.webgains.io/pvClk.min.js, line 1: WebGL context was lost.
+JavaScript warning: https://analytics.webgains.io/pvClk.min.js, line 1: WebGL context was lost.
+JavaScript warning: https://analytics.webgains.io/pvClk.min.js, line 1: WebGL context was lost.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1645180782352	geckodriver	INFO	Listening on 127.0.0.1:56725
+1645180782860	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "36205" "-no-remote" "-profile" "/tmp/rust_mozprofileYbnrsx"
+1645180783524	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileYbnrsx/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:36205/devtools/browser/1411467c-769f-4502-a1a1-35fa3b2e7d66
+1645180785281	Marionette	INFO	Listening on port 36215
+1645180785383	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1645180866645	geckodriver	INFO	Listening on 127.0.0.1:51747
+1645180867153	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "59031" "-no-remote" "-profile" "/tmp/rust_mozprofilequno0u"
+1645180867816	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilequno0u/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:59031/devtools/browser/df1bb59f-306f-4e39-bc1b-48ba86de9bc7
+1645180869676	Marionette	INFO	Listening on port 44283
+1645180869776	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1645180890494	Marionette	INFO	Stopped listening on port 44283
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645180890794	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1645180933016	geckodriver	INFO	Listening on 127.0.0.1:60987
+1645180933531	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "42011" "-no-remote" "-profile" "/tmp/rust_mozprofile6zeolr"
+1645180934217	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile6zeolr/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:42011/devtools/browser/b3b77504-3435-4b7a-b848-317c6e46d936
+1645180935766	Marionette	INFO	Listening on port 35215
+1645180935855	Marionette	WARN	TLS certificate errors will be ignored for this session
+1645180979311	geckodriver	INFO	Listening on 127.0.0.1:51621
+1645180979826	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "58619" "-no-remote" "-profile" "/tmp/rust_mozprofileAbXsbF"
+1645180980518	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileAbXsbF/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+!!! error running onStopped callback: TypeError: callback is not a function
+1645180981986	Marionette	INFO	Stopped listening on port 35215
+DevTools listening on ws://localhost:58619/devtools/browser/961e597f-3814-4158-92fa-2dd3cd392957
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645180982242	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1645180982357	Marionette	INFO	Listening on port 33811
+1645180982457	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1645181002258	Marionette	INFO	Stopped listening on port 33811
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645181002542	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1645181040583	geckodriver	INFO	Listening on 127.0.0.1:36785
+1645181041098	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "49675" "-no-remote" "-profile" "/tmp/rust_mozprofileZYuku8"
+1645181041741	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileZYuku8/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:49675/devtools/browser/71e21d70-5900-4d1c-8cf6-b3fe1c1a38fe
+1645181043466	Marionette	INFO	Listening on port 34611
+1645181043525	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1645181136798	Marionette	INFO	Stopped listening on port 34611
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645181136817	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1645181363317	geckodriver	INFO	Listening on 127.0.0.1:57367
+1645181363826	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "46675" "-no-remote" "-profile" "/tmp/rust_mozprofileYRyOIa"
+1645181364510	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileYRyOIa/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:46675/devtools/browser/50089eed-2158-489d-bedd-c7be665b1b7c
+1645181366259	Marionette	INFO	Listening on port 41097
+1645181366349	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1645181443939	Marionette	INFO	Stopped listening on port 41097
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645181444238	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1645181446792	geckodriver	INFO	Listening on 127.0.0.1:42359
+1645181447306	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "55201" "-no-remote" "-profile" "/tmp/rust_mozprofile6lyOUw"
+1645181448018	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile6lyOUw/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:55201/devtools/browser/afee0bdd-36b3-4865-b518-c64bcdcc31ab
+1645181449850	Marionette	INFO	Listening on port 33583
+1645181449928	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1645181602917	Marionette	INFO	Stopped listening on port 33583
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645181602940	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1645181606786	geckodriver	INFO	Listening on 127.0.0.1:59537
+1645181607301	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "58857" "-no-remote" "-profile" "/tmp/rust_mozprofileXTGnwA"
+1645181607986	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXTGnwA/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:58857/devtools/browser/1db1e940-192c-4db8-a669-6af2a12ad408
+1645181609639	Marionette	INFO	Listening on port 37571
+1645181609732	Marionette	WARN	TLS certificate errors will be ignored for this session
+1645181840925	geckodriver	INFO	Listening on 127.0.0.1:58827
+1645181841432	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "50621" "-no-remote" "-profile" "/tmp/rust_mozprofileEA4xsH"
+1645181842267	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileEA4xsH/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:50621/devtools/browser/56dd1fe4-93fc-4e69-a97f-77377ebbd78e
+1645181844094	Marionette	INFO	Listening on port 43789
+1645181844154	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1645181849028	Marionette	INFO	Stopped listening on port 37571
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645181849052	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1645182037261	geckodriver	INFO	Listening on 127.0.0.1:59005
+1645182037775	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "42225" "-no-remote" "-profile" "/tmp/rust_mozprofile1adNyy"
+1645182038498	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1adNyy/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:42225/devtools/browser/1cd2c5d4-6b0a-417d-a934-5afbd73a565c
+1645182040362	Marionette	INFO	Listening on port 32829
+1645182040404	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1645182053905	Marionette	INFO	Stopped listening on port 43789
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645182053924	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+console.info: MINT: main/search-config update being skipped
+1645182405719	geckodriver	INFO	Listening on 127.0.0.1:44199
+1645182406225	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "60031" "-no-remote" "-profile" "/tmp/rust_mozprofileXejGzW"
+1645182407014	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXejGzW/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+DevTools listening on ws://localhost:60031/devtools/browser/f1e47f77-c5e5-49c4-a9b6-145ec36f6616
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+1645182408648	Marionette	INFO	Listening on port 42553
+1645182408749	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1645182408972	Marionette	INFO	Stopped listening on port 32829
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645182409037	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1645182449406	geckodriver	INFO	Listening on 127.0.0.1:55165
+1645182449921	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "50725" "-no-remote" "-profile" "/tmp/rust_mozprofilef9Se7t"
+1645182450681	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilef9Se7t/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:50725/devtools/browser/34130084-389c-48e5-98f9-54d19b158982
+1645182452596	Marionette	INFO	Listening on port 42129
+1645182452645	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1645182452863	Marionette	INFO	Stopped listening on port 42553
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645182453178	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1645182637533	geckodriver	INFO	Listening on 127.0.0.1:48061
+1645182638048	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "36521" "-no-remote" "-profile" "/tmp/rust_mozprofileiarVys"
+1645182638755	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileiarVys/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:36521/devtools/browser/d7056d9a-3305-4d0a-9216-3d8e227a8aee
+1645182640627	Marionette	INFO	Listening on port 40589
+1645182640672	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.info: MINT: main/search-config update being skipped
+1645182764136	geckodriver	INFO	Listening on 127.0.0.1:36645
+1645182764149	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "51947" "-no-remote" "-profile" "/tmp/rust_mozprofiledADh5F"
+1645182764816	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiledADh5F/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:51947/devtools/browser/5838b8a3-7039-4377-95ef-03c7d997f537
+1645182766601	Marionette	INFO	Listening on port 38143
+1645182766672	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1645182768867	Marionette	INFO	Stopped listening on port 42129
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645182768891	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+!!! error running onStopped callback: TypeError: callback is not a function
+1645182769587	Marionette	INFO	Stopped listening on port 40589
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645182769612	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1645182830230	geckodriver	INFO	Listening on 127.0.0.1:35179
+1645182830747	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "47629" "-no-remote" "-profile" "/tmp/rust_mozprofileuK1Tcv"
+1645182831593	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileuK1Tcv/search.json.mozlz4", (void 0)))
+!!! error running onStopped callback: TypeError: callback is not a function
+console.info: MINT: Loading search-config defaults.
+1645182832918	Marionette	INFO	Stopped listening on port 38143
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645182833198	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+DevTools listening on ws://localhost:47629/devtools/browser/9a1281cc-1074-43f8-a2a1-c2eca6faf165
+1645182833554	Marionette	INFO	Listening on port 33283
+1645182833576	Marionette	WARN	TLS certificate errors will be ignored for this session
+1645183054203	geckodriver	INFO	Listening on 127.0.0.1:56075
+1645183054209	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "53659" "-no-remote" "-profile" "/tmp/rust_mozprofileXcOIPl"
+1645183054999	Marionette	INFO	Marionette enabled
+!!! error running onStopped callback: TypeError: callback is not a function
+1645183055628	Marionette	INFO	Stopped listening on port 33283
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645183055649	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXcOIPl/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:53659/devtools/browser/8cd4d2d7-ad72-4beb-a12d-966aef151239
+1645183057018	Marionette	INFO	Listening on port 42395
+1645183057139	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.info: MINT: main/search-config update being skipped
+!!! error running onStopped callback: TypeError: callback is not a function
+1645183352221	Marionette	INFO	Stopped listening on port 42395
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645183352254	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1645183384527	geckodriver	INFO	Listening on 127.0.0.1:56843
+1645183385040	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "45085" "-no-remote" "-profile" "/tmp/rust_mozprofilesYUppx"
+1645183385728	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilesYUppx/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:45085/devtools/browser/b08799f7-56f1-49e1-9b6e-cb66c025f003
+1645183387448	Marionette	INFO	Listening on port 33561
+1645183387564	Marionette	WARN	TLS certificate errors will be ignored for this session
+1645183604369	geckodriver	INFO	Listening on 127.0.0.1:36705
+1645183604386	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "44629" "-no-remote" "-profile" "/tmp/rust_mozprofilenfbSha"
+1645183605218	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenfbSha/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:44629/devtools/browser/37cd0658-7bc4-486d-84a8-6776d74bda76
+1645183607102	Marionette	INFO	Listening on port 46211
+1645183607209	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1645183607824	Marionette	INFO	Stopped listening on port 33561
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645183607868	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1645183667593	geckodriver	INFO	Listening on 127.0.0.1:37393
+1645183668108	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "40697" "-no-remote" "-profile" "/tmp/rust_mozprofilemfVxy2"
+1645183668858	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilemfVxy2/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:40697/devtools/browser/24ff0297-c5e1-4dcd-a847-2a43e94b8412
+1645183670478	Marionette	INFO	Listening on port 43865
+1645183670531	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1645183700994	Marionette	INFO	Stopped listening on port 43865
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645183701287	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1645183727468	geckodriver	INFO	Listening on 127.0.0.1:49767
+1645183727982	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "58591" "-no-remote" "-profile" "/tmp/rust_mozprofile8cnruc"
+1645183728709	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile8cnruc/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:58591/devtools/browser/a6083412-cd74-4a53-84c4-9c9b4fd41753
+1645183730379	Marionette	INFO	Listening on port 33921
+1645183730426	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1645183732645	Marionette	INFO	Stopped listening on port 46211
+1645183732663	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1645183826487	geckodriver	INFO	Listening on 127.0.0.1:53827
+1645183827001	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "45103" "-no-remote" "-profile" "/tmp/rust_mozprofilefNX7py"
+1645183827715	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilefNX7py/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:45103/devtools/browser/069b206d-c3dd-47ec-8930-9b8a3ddd761b
+1645183829549	Marionette	INFO	Listening on port 39533
+1645183829624	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1645183860840	Marionette	INFO	Stopped listening on port 39533
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645183861138	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+!!! error running onStopped callback: TypeError: callback is not a function
+1645183869115	Marionette	INFO	Stopped listening on port 33921
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645183869136	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1645183970127	geckodriver	INFO	Listening on 127.0.0.1:33823
+1645183970139	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "39865" "-no-remote" "-profile" "/tmp/rust_mozprofileGkevYq"
+1645183970816	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGkevYq/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:39865/devtools/browser/8edd133e-7f7c-4f0c-82ff-3defa5d82e0c
+1645183972371	Marionette	INFO	Listening on port 36319
+1645183972460	Marionette	WARN	TLS certificate errors will be ignored for this session
+1645184040833	geckodriver	INFO	Listening on 127.0.0.1:58167
+1645184041348	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "47893" "-no-remote" "-profile" "/tmp/rust_mozprofileggiELc"
+1645184042043	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileggiELc/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:47893/devtools/browser/25566b8c-214e-4157-92a3-505dcd304d36
+1645184044045	Marionette	INFO	Listening on port 45851
+1645184044086	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1645184049790	Marionette	INFO	Stopped listening on port 36319
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645184050046	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1645184086091	geckodriver	INFO	Listening on 127.0.0.1:56731
+1645184086610	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "50723" "-no-remote" "-profile" "/tmp/rust_mozprofile32b2Fl"
+1645184087469	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile32b2Fl/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:50723/devtools/browser/f9ede51a-43a3-4052-8a1e-cb88d8b53357
+1645184089306	Marionette	INFO	Listening on port 39067
+1645184089346	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1645184095953	Marionette	INFO	Stopped listening on port 45851
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645184096206	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+!!! error running onStopped callback: TypeError: callback is not a function
+1645184129810	Marionette	INFO	Stopped listening on port 39067
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645184130091	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1645184198652	geckodriver	INFO	Listening on 127.0.0.1:44447
+1645184199160	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "59393" "-no-remote" "-profile" "/tmp/rust_mozprofileDn6Zqt"
+1645184199830	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileDn6Zqt/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:59393/devtools/browser/54c7bd1c-f196-4237-9868-ffee08d70ebd
+1645184201506	Marionette	INFO	Listening on port 33249
+1645184201583	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1645184230493	Marionette	INFO	Stopped listening on port 33249
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645184230772	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1645184301133	geckodriver	INFO	Listening on 127.0.0.1:47407
+1645184301145	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "42667" "-no-remote" "-profile" "/tmp/rust_mozprofilemONy1W"
+1645184301824	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilemONy1W/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:42667/devtools/browser/57b9922c-29d2-47d1-b922-e0e79b09c56a
+1645184303603	Marionette	INFO	Listening on port 37221
+1645184303671	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1645184331401	Marionette	INFO	Stopped listening on port 37221
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645184331682	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1645184355978	geckodriver	INFO	Listening on 127.0.0.1:47713
+1645184356495	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "37311" "-no-remote" "-profile" "/tmp/rust_mozprofilel4TwA3"
+1645184357246	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilel4TwA3/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:37311/devtools/browser/3b40e4e8-27e8-49fb-9ba9-878f547a409e
+1645184359100	Marionette	INFO	Listening on port 34053
+1645184359124	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1645184422206	Marionette	INFO	Stopped listening on port 34053
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645184422495	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1645184426873	geckodriver	INFO	Listening on 127.0.0.1:37863
+1645184427386	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "36581" "-no-remote" "-profile" "/tmp/rust_mozprofile1iPKeC"
+1645184428024	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1iPKeC/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:36581/devtools/browser/cda0c6c0-5f74-4089-a6ed-15456a505d1e
+1645184429782	Marionette	INFO	Listening on port 33825
+1645184429812	Marionette	WARN	TLS certificate errors will be ignored for this session
+!!! error running onStopped callback: TypeError: callback is not a function
+1645184498887	Marionette	INFO	Stopped listening on port 33825
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645184499162	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+1645184784207	geckodriver	INFO	Listening on 127.0.0.1:60101
+1645184784721	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--headless" "--remote-debugging-port" "58279" "-no-remote" "-profile" "/tmp/rust_mozprofileIbmkHI"
+*** You are running in headless mode.
+1645184785267	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileIbmkHI/search.json.mozlz4", (void 0)))
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://localhost:58279/devtools/browser/99611f80-a5f5-43b3-8685-9bff84c9860e
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1645184786776	Marionette	INFO	Listening on port 45115
+1645184786854	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1645187149341	geckodriver	INFO	Listening on 127.0.0.1:37855
+1645187149854	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "35693" "-no-remote" "-profile" "/tmp/rust_mozprofileffrXCl"
+1645187150549	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileffrXCl/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:35693/devtools/browser/c487e74f-3139-4963-a4af-2dc156f66edf
+1645187152136	Marionette	INFO	Listening on port 39073
+1645187152190	Marionette	WARN	TLS certificate errors will be ignored for this session
+1645187166699	geckodriver	INFO	Listening on 127.0.0.1:47549
+1645187167203	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "42183" "-no-remote" "-profile" "/tmp/rust_mozprofileewZKlt"
+1645187167808	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileewZKlt/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:42183/devtools/browser/5667f2e4-9cb6-4319-a4c3-4600f2e561f4
+1645187169518	Marionette	INFO	Listening on port 41825
+1645187169625	Marionette	WARN	TLS certificate errors will be ignored for this session
+1645187200281	geckodriver	INFO	Listening on 127.0.0.1:53787
+1645187200295	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--log-level=OFF" "--remote-debugging-port" "51493" "-no-remote" "-profile" "/tmp/rust_mozprofilekYS9s0"
+1645187200994	Marionette	INFO	Marionette enabled
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is US
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilekYS9s0/search.json.mozlz4", (void 0)))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 154: TypeError: date is undefined
+DevTools listening on ws://localhost:51493/devtools/browser/c148bf58-cd48-4a68-9544-f87744e56c8b
+1645187202849	Marionette	INFO	Listening on port 33383
+1645187202919	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.info: MINT: main/search-config update being skipped
+console.info: MINT: main/search-config update being skipped
+console.info: MINT: main/search-config update being skipped
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+!!! error running onStopped callback: TypeError: callback is not a function
+1645187547006	Marionette	INFO	Stopped listening on port 41825
+1645187547024	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136
+console.warn: "IGNORED REDUX ACTION:" "AUTOCOMPLETE_CLEAR"
+console.error: "Tried to send a 'target-destroyed-form' event on an already destroyed actor 'watcher'"
+!!! error running onStopped callback: TypeError: callback is not a function
+1645191756628	Marionette	INFO	Stopped listening on port 46263
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645191756671	RemoteAgent	ERROR	unable to stop listener: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIWindowMediator.getEnumerator]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: chrome://remote/content/cdp/observers/TargetObserver.jsm :: stop :: line 64"  data: no] Stack trace: stop()@TargetObserver.jsm:64
+unwatchForTabs()@TargetList.jsm:70
+unwatchForTargets()@TargetList.jsm:37
+destructor()@TargetList.jsm:109
+close()@RemoteAgent.jsm:136

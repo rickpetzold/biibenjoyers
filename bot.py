@@ -78,16 +78,17 @@ def login(browser, name="", password="", mode="new", login_time=8, tries=0):
 
     return tries
    
-def conflict_check(browser):
+def conflict_check(browser, index, slot, mode="fast"):
     """
     Return False if conflict, True if no conflict 
-    
+
     Check if seat reservation was succesfull.
     Return can directly be used to evaluate if seat reservation was succesfull). If element for conflict is found (list of elements not empty) -> check if policy
     conflict or reservation conflict. 
 
     If element for conflict is not found -> Assume succesfull reservation    
     """
+
     # Conflict
     
     # Check if Konflikt emerges, if yes continue with logic -> policy or conflict 
@@ -117,9 +118,36 @@ def conflict_check(browser):
                 # False for conflict
                 return False
 
-    # Assume no conflict: no conflict screen
+    # Assume no conflict: check if seat is reserved
     else:
-        return True
+    
+            #  get list of seats
+        if mode == "schedule": 
+            
+            seats = browser.find_elements(By.XPATH, f"//tr/td[div/a[text()='{slot}']]/following-sibling::td[not(@class='row_labels')]")
+
+            # Check if booking was succesfull
+            if seats[index].get_attribute("class") == "K writable":
+                return True
+            else: 
+                return False
+
+        else: 
+            return True
+        
+    
+def list_free_seats(browser, slot):
+    counter = 0
+    indices = list()
+    # Find all seats (go over all seats in order to get position of seats)
+    seats = browser.find_elements(By.XPATH, f"//tr/td[div/a[text()='{slot}']]/following-sibling::td[not(@class='row_labels')]")
+
+    for seat in seats:
+        #if seat.find_element(By.XPATH, ".//div/a").get_attribute("title") != "[X]" and seat.get_attribute("class") != "K writable":
+        if seat.get_attribute("class") == "new":
+            indices.append(counter)
+        counter+=1
+    return indices, seats
 
 def get_seat(browser, seat_numbers, slot = "", favorites=list(), mode="fast"):
     """
@@ -131,11 +159,9 @@ def get_seat(browser, seat_numbers, slot = "", favorites=list(), mode="fast"):
     If mode == "fast": grab random, free seat. Favorite seats are dismissed to save time
     If mode == "schedule": support favorite seats by running over all seats and calculating the index of free seats (not necessary for fast mode)
     """
-
+    slot = slot
     reserved = False # Boolean for seat
     marked = False # Boolean for favorite seat
-    indices = list()
-    counter = 0
 
     #######################
     ### Fast mode #########
@@ -155,90 +181,55 @@ def get_seat(browser, seat_numbers, slot = "", favorites=list(), mode="fast"):
         seats[random_seat_number].click()
         browser.find_element(By.XPATH, "//input[@class='submit default_action']").click() 
 
-        return conflict_check(browser)
+        if conflict_check(browser, random_seat_number, slot, mode="fast"):
+            print("Got seat!")
+            return True
+        else: 
+            return False
         
 
     #######################
     ### Schedule mode #####
     #######################
-    
-    # Find all seats (go over all seats in order to get position of seats, compare this position of favorite positions)
-    seats = browser.find_elements(By.XPATH, f"//tr/td[div/a[text()='{slot}']]/following-sibling::td[not(@class='row_labels')]")
-    for seat in seats:
-        #if seat.find_element(By.XPATH, ".//div/a").get_attribute("title") != "[X]" and seat.get_attribute("class") != "K writable":
-        if seat.get_attribute("class") == "new":
-            indices.append(counter)
-        counter+=1
-
-    # No seats
-    if not indices:
-        return reserved
-    else: 
-        print("Seats available\n")
-
-    # Free seats
-    ## Check favorites
+    fav_seats_index = set()
     if favorites: 
         # Set of favorites
-        fav_seats_index = set()
         for fav in favorites: 
             try:
                 fav_seats_index.add(seat_numbers[fav])
             except:
                 print(f"Favorite seat {fav} does not exist.")
+    
+        for fav_index in fav_seats_index: 
+            # Get list of free seats
+            free_seats_indices, seats = list_free_seats(browser, slot)
 
+            if not free_seats_indices:
+                return False
+
+            # Favorite seat in free seats, go through each
+            if fav_index in free_seats_indices:
         
-        ### Check if free seat index in favorites index list
-        for ind in indices: 
-            seats = browser.find_elements(By.XPATH, f"//tr/td[div/a[text()='{slot}']]/following-sibling::td[not(@class='row_labels')]") # error with this refresh
-            if ind in fav_seats_index: 
-                seats[ind].click()
+                seats[fav_index].click()
 
-                # Submit and check for conflicts
                 browser.find_element(By.XPATH, "//input[@class='submit default_action']").click()
-                
-                if conflict_check(browser): # pass
+
+                if conflict_check(browser, fav_index, slot, mode="schedule"): # pass
                     print("Got favorite seat!\n")
                     marked = True # Got favorite seat
                     reserved = True # Got seat -> out
-                    index_chosen = ind
-                    break
+                    return reserved
                 else: 
-                    pass
+                    return reserved
+            else: 
+                pass
     
-    # Reservation of favorite seat failed
+    # Favorite seat missed
     if not marked: 
-        random_seat_number = randint(0, len(indices)-1)
-    
-        # One free seat left: take it
-        if len(indices) == 1:
-            seats[indices[random_seat_number]].click()
+        return get_seat(browser, seat_numbers, slot = slot, mode="fast")    
+  
 
-        # More seats left: take random one
-        elif len(indices) >= 2:
-            seats[indices[random_seat_number]].click()
-        
-        # Submit and check for conflicts
-        browser.find_element(By.XPATH, "//input[@class='submit default_action']").click()
-
-        if conflict_check(browser):  
-            index_chosen = indices[random_seat_number]
-            reserved = True
-        else: 
-            pass
-
-    
-    # Check seats again, if reservation was succesfull
-    seats = browser.find_elements(By.XPATH, f"//tr/td[div/a[text()='{slot}']]/following-sibling::td[not(@class='row_labels')]")
-    if seats[index_chosen].get_attribute("class") == "K writable":
-        print("Reservation succesfull")
-        if not marked:
-            print("Favorite seat missed, got alternative")
-        return reserved
-    else:
-        return False
-
-def main(name="", password="", floor = "Altbau EG KIT-BIB (LBS)", slot = "nachmittags", favorites=[], area=20, start_time=200, booking_time=120, login_time=8, mode="schedule"):
+def main(name="", password="", floor = "Altbau EG KIT-BIB (LBS)", slot = "nachmittags", favorites=[], seat_numbers={}, area=20, start_time=200, booking_time=120, login_time=8, mode="schedule", headless_bool=False):
     """
     Main function. Login and run seat reservation program. 
     """
@@ -248,7 +239,10 @@ def main(name="", password="", floor = "Altbau EG KIT-BIB (LBS)", slot = "nachmi
     
     firefox_options=Options()
     firefox_options.add_argument("--log-level=OFF")
-    #firefox_options.add_argument("--headless")
+
+    if headless_bool:
+        firefox_options.add_argument("--headless")
+
     browser = webdriver.Firefox(executable_path=GeckoDriverManager().install(), options=firefox_options)
     browser.set_window_position(0, 0)     
     browser.set_window_size(1024, 768)
@@ -269,14 +263,16 @@ def main(name="", password="", floor = "Altbau EG KIT-BIB (LBS)", slot = "nachmi
         elif hour >=18 and hour <= 19: 
             slot = "abends"
         else: 
-            ## Book for midday slot in 3 days
+            ## Book for midday slot in 4 days
             slot = "nachmittags"
             day+=4
 
     elif mode == "fast":
         slot=slot
 
+    assert slot in set(["nachmittags", "vormittags", "abends", "nachts"]), "Slot: Falscher Zeitraum"
 
+    
     print(f"Hour: {hour}")
     print(f"Target day: {day}")
     print(f"Trying to get a slot in: {slot}")
@@ -326,12 +322,12 @@ def main(name="", password="", floor = "Altbau EG KIT-BIB (LBS)", slot = "nachmi
     counter_sec = 0
     while datetime.now() < start_date: 
         time.sleep(1)
-        rand_sleep_time = randint(40,100)
+        rand_sleep_time = randint(80,100)
         if datetime.now() >= start_date:
             break
         counter_sec += 1
 
-        if counter_sec == rand_sleep_time:
+        if counter_sec/rand_sleep_time>=1:
             print(f"Refresh at: {datetime.now().strftime('%y-%m-%d %H:%M:%S')}")
             browser.find_element(By.XPATH, "//td[@id='company']/div/div/a[text()='Sitzplatzreservierung']").click()
             WebDriverWait(browser, 20).until(EC.presence_of_element_located((By.XPATH, "//td[@id='company']/div/div/a[text()='Sitzplatzreservierung']")))
@@ -349,8 +345,8 @@ def main(name="", password="", floor = "Altbau EG KIT-BIB (LBS)", slot = "nachmi
 
     while not status: 
         browser.refresh()
-        print(f"Run at: {datetime.now().strftime('%y-%m-%d %H:%M:%S')}")
-        print("...Finding seat...\n")
+        print(f"\nRun at: {datetime.now().strftime('%y-%m-%d %H:%M:%S')}")
+        print("...Finding seat...")
         status = get_seat(browser, seat_numbers, slot=slot, favorites=favorites, mode=mode)
         
         if datetime.now() > end: 
@@ -376,7 +372,8 @@ if __name__ == "__main__":
     parser.add_argument("-bt", help="booking time in which booking is retried [seconds]")
     parser.add_argument("-fa", nargs="*", help="Preferred seat numbers seperated by space, optional")
     parser.add_argument("-st", nargs="*", help="starting date and time for booking [yyyy mm dd HH MM SS], possible for both fast and schedule")
-    
+    parser.add_argument("-headless", help="Run headless without browser popping up")
+
     args = parser.parse_args()._get_kwargs()
     
     floor=""
@@ -424,6 +421,9 @@ if __name__ == "__main__":
                 booking_time = int(tup[1])
             except:
                 booking_time = 120
+            
+        elif tup[0] == "headless":
+            headless_bool = tup[1]
 
         elif tup[0] == 'st': 
             start_time = tup[1]
@@ -434,8 +434,6 @@ if __name__ == "__main__":
         assert start_time, "Specify start date and time for booking seat [-st yyyy mm dd HH MM SS]"
         assert not slot, "Slot is automatically calculated: (if time bet(8,9): vormittags), (18,19: abends), (else: nachmittags and day+3)"
         
-    assert slot in set(["nachmittags", "vormittags", "abends", "nachts"]), "Slot: Falscher Zeitraum"
-
     
 
-    main(name=username, password=password, floor=floor, slot=slot, mode=mode, favorites=favorites, area=area, login_time=login_time, booking_time=booking_time, start_time=start_time)
+    main(name=username, password=password, floor=floor, slot=slot, mode=mode, favorites=favorites, seat_numbers = seat_numbers, area=area, login_time=login_time, booking_time=booking_time, start_time=start_time, headless_bool=headless_bool)
